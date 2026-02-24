@@ -1,0 +1,20 @@
+{% extends "layouts/base.html" %}
+ 
+{% load static %}
+
+    {% block title %} List of Books {% endblock title %}
+    {% block content %}
+    <h1 style="color: green;">List of Books</h1>
+    <h2 style="color: lightskyblue;">Internet & World Wide Web How to Program</h2></a>
+    <img src="{% static 'bookmodule/book1.jpg' %}" alt="Book1 img" width="200" height="200">
+    <hr>
+ 
+    <h2 style="color: lightskyblue;">2) C++ How to Program, Late Objects Version</h2>
+    <img src="{% static 'bookmodule/book2.jpg' %}" alt="Book2 img" width="200" height="200">
+    <hr>
+ 
+    <h2 style="color: lightskyblue;">3) Images in Another Folder</h2>
+    <img src="{% static 'bookmodule/book3.jpg' %}" alt="Book3 img" width="200" height="200">
+    <hr>
+{% endblock content %}
+
