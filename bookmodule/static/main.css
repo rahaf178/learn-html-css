@@ -1,0 +1,77 @@
+.block {
+    padding: 20px;
+    text-align: center;
+}
+.text1 a{
+    background-color: rgb(108, 216, 108);
+    color: red;
+    display: block;     
+    width: 100%;         
+    height: 50px;       
+    line-height: 50px;   
+    text-decoration: underline;
+}
+.text2 a{
+    background-color: gray;
+    color: yellow;
+    display: block;     
+    width: 100%;         
+    height: 50px;       
+    line-height: 50px;   
+    text-decoration: underline;
+}
+.text3 a{
+    background-color: black;
+    color: white;
+    display: block;     
+    width: 100%;         
+    height: 50px;       
+    line-height: 50px;   
+    text-decoration: underline;
+
+}
+
+a:visited {
+    border-color: red;
+
+}
+
+a:hover {
+    color: red; 
+}
+
+a:active {
+    color: blue;  
+}
+h1{
+    background: wheat;
+    color: green;
+}
+.listing-title{
+    background: rgb(96, 160, 96);
+    color: white;
+}
+table{
+    margin: 0 auto;
+}
+.table1-title{
+    text-align: center;
+}
+.table2-title{
+    text-align: center;
+    font-weight: normal;
+}
+.total{
+    font-weight: bold;
+}
+.names{
+    font-weight: bold;
+}
+.table2-box {
+    padding: 10px;
+}
+img{
+    width: 300px;   
+    height: auto;   
+    padding: 10px;  
+}
