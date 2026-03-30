@@ -13,6 +13,6 @@ urlpatterns = [
     path('books/html5/text/formatting', views.text_formatting, name='text_formatting'),
     path('books/html5/listing', views.listing, name='listing'), 
     path('books/html5/tables', views.tables, name='tables'),
-
-
+    path('books/search', views.search_books, name='search_page'),
+    path('books/results', views.search_result, name='search_results')
 ]
