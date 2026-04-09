@@ -19,7 +19,8 @@ from django.contrib import admin
 from django.urls import include, path
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('books/', include("bookmodule.urls")), #include urls.py of bookmodule app
-    path('users/', include("usermodule.urls"))  #include urls.py of usermodule app
+    # path('books/', include("bookmodule.urls")), #include urls.py of bookmodule app
+    path('users/', include("usermodule.urls")),  #include urls.py of usermodule app
+    path('', include('bookmodule.urls')),
 ]
 
