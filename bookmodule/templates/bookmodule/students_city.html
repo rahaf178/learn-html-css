@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Students per City</title>
+</head>
+<body>
+
+<h1>Number of Students in Each City</h1>
+
+<ul>
+    {% for item in data %}
+        <li>{{ item.address__city }} — {{ item.total }}</li>
+    {% endfor %}
+</ul>
+
+</body>
+</html>

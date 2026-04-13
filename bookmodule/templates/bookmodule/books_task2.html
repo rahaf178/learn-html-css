@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 2 Books</title>
+</head>
+<body>
+
+    <h1>Books (Edition > 3 and Title/Author contains 'co')</h1>
+
+    <ul>
+        {% for book in books %}
+            <li>{{ book.title }} — {{ book.author }} — Edition: {{ book.edition }}</li>
+        {% empty %}
+            <li>No matching books found.</li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>
